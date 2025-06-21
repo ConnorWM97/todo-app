@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* Include the padding and border in an elementst total width and height */
 * {
     box-sizing: border-box;
