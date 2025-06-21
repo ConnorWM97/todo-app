@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
 </head>
 <body>
-    
+    <div class="header" id="header">
+        <h1>Todo List</h1>
+        <input type="text" id="todo-input" placeholder="Add a new todo">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <ul id="todo-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
 </body>
 </html>
